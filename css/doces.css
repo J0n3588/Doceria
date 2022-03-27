@@ -1,0 +1,50 @@
+@font-face{
+    src: url(fonts/LoveLight-Regular.ttf);
+    font-family: 'Love Light';
+    font-weight: normal;
+}
+@font-face{
+    src: url(fonts/Flavors-Regular.ttf);
+    font-family: 'Flavors';
+    font-weight: normal;
+}
+body{
+    background-image: url(/img/fundo\ doces.jpg);
+    background-size: cover;
+}
+.navbar-brand, .nav-item{
+    font-family: 'Love Light';
+}
+.background-menu{
+    font-family:'Flavors';
+    text-align: center;
+    
+}
+.background-menu h1{
+    font-size: 40px;
+    background-color: rgb(184, 121, 49);
+    border-radius: 30px;
+}
+.background-menu h2{
+font-size: 35px;
+text-shadow: 0px 0px 5px #fff;
+}
+.background-menu h3{
+font-size: 15px;
+text-shadow: 0px 0px 5px #fff;
+}
+.background-menu p{
+font-size: 20px;
+text-shadow: 0px 0px 5px #fff;
+}
+
+.principal-contact{
+    padding: 5px;
+    position:fixed;
+    bottom:0em;
+    right:0em;
+}
+.principal-contact img{
+width: auto;
+height: 30px;
+}

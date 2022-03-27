@@ -1,0 +1,79 @@
+@font-face{
+    src: url(fonts/LoveLight-Regular.ttf);
+    font-family: 'Love Light';
+    font-weight: normal;
+}
+@font-face{
+    src: url(fonts/Antic-Regular.ttf);
+    font-family: 'Antic';
+    font-weight: normal;
+}
+html{
+    background-color: RGB(33, 37, 41);
+}
+.navbar-brand, .nav-item{
+    font-family: 'Love Light';
+
+}
+.contact, .social{
+    font-family: 'Antic';
+    text-align: center;
+    background-color: RGB(33, 37, 41);
+
+}
+.tel p{
+    text-decoration: none;
+    color: #fff;
+}
+.social-contacts img{
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer img{
+    width: 100% ;
+    height: auto;
+}
+.contact, .social h4{
+    color: #fff;
+}
+.social a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sub-footer a{
+    text-decoration: none;
+}
+.logo-contact img{
+    position: absolute;
+    align-items: center;
+    max-width: 145px;
+    height: auto;
+    left: 33%;
+
+}
+.principal-contact{
+    padding: 5px;
+    position:fixed;
+    bottom:0em;
+    right:0em;
+}
+.principal-contact img{
+    width: auto;
+    height: 30px;
+}
+.developed{
+    text-align: center;
+    position: fixed;
+    right: auto;
+    bottom: 0em;   
+}
+.developed a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 8px;
+}

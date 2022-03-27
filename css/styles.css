@@ -1,0 +1,111 @@
+@font-face{
+    src: url(fonts/LoveLight-Regular.ttf);
+    font-family: 'Love light';
+    font-weight: normal;
+}
+body{
+    background-image: url('/img/wepik-2022218-19618.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.navbar-brand, .nav-item{
+    font-family: 'Love Light';
+}
+.logo img{
+    margin-top: 5px;
+    max-width: 51%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text p{
+    text-align: center;
+    font-family: Love light;
+    font-size: 45px;
+    text-shadow: 0px 0px 5px #fff;
+    color: red;
+}
+.button{
+    background-color: transparent;
+    border-color: #000;
+    margin-top: 2.5em;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Love Light';
+
+}
+.brands h1{
+    background-color: #000;
+    color: #999;
+    position: relative;
+    top:2em;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+#dori, #italac, #ninho, #sococo, #nutella{
+    margin: 5px;
+    width: auto;
+    height: 1.5em;
+}
+.brand-1{
+    display: flex;
+    justify-content: space-around;
+}
+.brand-2{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    font-family: 'elephant';
+    font-size: 13px;
+}
+.line-1 img{
+    width: auto;
+    height: 30px;
+}
+.line-1, .pay{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.social, .frete, .pay-title{
+    text-align: center;
+}
+.pay img{
+    width: auto;
+    height: 30px;
+}
+.background{
+    background-color: rgb(255, 172, 230);
+    width: auto;
+    height: auto;
+}
+
+.principal-contact{
+    padding: 5px;
+    position:fixed;
+    bottom:0em;
+    right:0em;
+}
+.principal-contact img{
+    width: auto;
+    height: 30px;
+}
+.developed{
+    position: relative;
+    text-align: center;
+}
+.developed a{
+    text-decoration: none;
+    color: #000;
+    font-size: 8px;
+}
